@@ -1,0 +1,67 @@
+.container_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.logo_gobaber {
+    margin-top: -6%;
+    margin-left: 46.5%;
+    align-items: center;
+    position: absolute;
+}
+
+.container_login form {
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+}
+
+.container_login input {
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 4px;
+    height: 44px;
+    padding: 0 15px;
+    color: #fff;
+    margin: 0 0 10px;
+}
+
+.container_login input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.container_login button {
+    margin: 5px 0 0;
+    height: 44px;
+    background: #3b9eff;
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.container_login button:hover {
+    background: #2f7fce;
+}
+
+.linkCadast {
+    color: #fff;
+    margin-left: 37%;
+    margin-top: 15px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.container_login p {
+    color: rgb(255, 0, 0);
+    margin-top: -1px;
+}
+
+.container_login a {
+    color: #fff;
+    width: 100%;
+}

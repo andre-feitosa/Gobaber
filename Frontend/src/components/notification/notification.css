@@ -1,0 +1,78 @@
+.container_notification {
+    position: relative;
+    border: 0;
+    background: none;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.list_notification ul {
+    position: absolute;
+    left: calc(50% - 150px);
+    width: 260px;
+    top: calc(100% + 10px);
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    padding: 20px;
+    max-height: 260px;
+    overflow-y: scroll;
+}
+
+.list_notification ul::-webkit-scrollbar {
+    width: 7px;
+}
+
+.list_notification ul::-webkit-scrollbar-thumb {
+    background: rgb(128, 128, 128);
+    border-radius: 5px;
+}
+
+.list_notification ul::-webkit-scrollbar-track {
+    background: rgb(247, 247, 247);
+    border-radius: 5px;
+}
+
+.list_notification li {
+    color: #fff;
+}
+
+.list_notification li + li {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.list_notification li > p {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.list_notification li > time {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.list_notification li > button {
+    font-size: 12px;
+    border: 0;
+    background: none;
+    color: #8c70e9;
+    padding: 0 5px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.list_notification ul::before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 20px);
+    top: -20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid rgba(0, 0, 0, 0.6);
+}
+
+.iconNotification {
+    cursor: pointer;
+}

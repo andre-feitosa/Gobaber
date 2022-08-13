@@ -1,0 +1,61 @@
+.container_header {
+    background: #fff;
+    padding: 0 30px;
+}
+
+.container_components {
+    margin: 0 auto;
+    max-width: auto;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_components nav {
+    display: flex;
+    align-items: center;
+}
+
+.container_components a {
+    color: #7159c1;
+    font-weight: bold;
+}
+
+.container_components aside {
+    display: flex;
+    align-items: center;
+    border-left: 1px bold #eee;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.profile {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.profile strong {
+    display: block;
+    color: #333;
+}
+
+.profile a {
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+    color: #999;
+}
+
+.image_logo {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #eee;
+}
+
+.image_avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: fill;
+}
